@@ -57,10 +57,10 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 
 ## ABOUT THIS PROJECT
 
-   I am trying to make REST API with description as below:
-	- Using Laravel 5.5
-	- utilizing jwt feature in laravel 5.5
-	- database using mysql from laravel 5.5
+I am trying to make REST API with description as below:
+* Using Laravel 5.5
+* utilizing jwt feature in laravel 5.5
+* database using mysql from laravel 5.5
 	
 
 ### ROUTES
@@ -79,7 +79,7 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 | ------------------------------- | ------ | --------------|
 | `/pagination/:pagination/:page` | GET    | Get all product data divide by pagination
 | `/api/product`                  | POST   | Create one product data
-| `/api/product/:id`              | GET    | Get one user data
+| `/api/product/:id`              | GET    | Get one product data
 | `/api/product/:id`              | PUT    | Update one product data
 | `/api/product/:id`              | DELETE | Delete one product data
 
