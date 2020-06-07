@@ -44,10 +44,25 @@ We would like to extend our thanks to the following sponsors for helping fund on
 
 Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](http://laravel.com/docs/contributions).
 
+
 ## Security Vulnerabilities
 
 If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
 
+
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
+
+
+## ROUTES
+
+#### User Routes
+
+| Route                           |  HTTP  | Description |
+| ------------------------------- | ------ | --------------|
+| `/pagination/:pagination/:page` | GET    | Get all product data divide by pagination
+| `/api/product`                  | POST   | Create one product data
+| `/api/product/:id`              | GET    | Get one user data
+| `/api/product/:id`              | PUT    | Update one product data
+| `/api/product/:id`              | DELETE | Delete one product data
