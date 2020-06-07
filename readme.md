@@ -55,9 +55,25 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
 
 
-## ROUTES
+## ABOUT THIS PROJECT
+
+   I am trying to make REST API with description as below:
+	- Using Laravel 5.5
+	- utilizing jwt feature in laravel 5.5
+	- database using mysql from laravel 5.5
+	
+
+### ROUTES
 
 #### User Routes
+
+| Route       |  HTTP  | Description |
+| ------------| ------ | --------------|
+| `/login`    |  POST  | Login User, return JWT about certain data user
+| `/REGISTER` |  POST  | Register new user with inputed data
+
+
+#### Product Routes
 
 | Route                           |  HTTP  | Description |
 | ------------------------------- | ------ | --------------|
@@ -66,3 +82,12 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 | `/api/product/:id`              | GET    | Get one user data
 | `/api/product/:id`              | PUT    | Update one product data
 | `/api/product/:id`              | DELETE | Delete one product data
+
+
+#### Using Middleware Routes
+
+| Route        |  HTTP  | Description |
+| ------------ | ------ | --------------|
+| `/user`      |  GET   | Get all data of the user
+| `/closed`    |  GET   | Get all data controller with authorization
+| `/product`   |  GET   | Get all data of the product item
